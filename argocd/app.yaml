@@ -13,9 +13,6 @@ spec:
     targetRevision: HEAD
     path: apps/demo-sops-app
 
-    kustomize:
-      buildOptions: "--enable-alpha-plugins --enable-exec"
-
   destination:
     server: https://kubernetes.default.svc
     namespace: default
