@@ -9,9 +9,12 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/shamsherkush/app.git
+    repoURL: https://github.com/YOUR_USERNAME/gitops.git
     targetRevision: HEAD
-    path: .
+    path: apps/demo-sops-app
+
+    kustomize:
+      buildOptions: "--enable-alpha-plugins --enable-exec"
 
   destination:
     server: https://kubernetes.default.svc
