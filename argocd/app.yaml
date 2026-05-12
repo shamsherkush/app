@@ -9,7 +9,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/YOUR_USERNAME/gitops.git
+    repoURL: https://github.com/shamsherkush/app.git
     targetRevision: HEAD
     path: apps/demo-sops-app
 
